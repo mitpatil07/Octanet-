@@ -1,0 +1,105 @@
+section{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-width: 100vb;
+    min-height: 100vb;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: url(task1.png)no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+header{
+    position: relative;
+    top: 0;
+    width:  100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .logo{
+    
+    color: #000;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+header .logo:hover{
+    background-color: rgb(255, 255, 255);
+    padding: 5px 15px;
+    border-start-end-radius: 15px;
+    border-start-start-radius: 15px;
+}
+
+header .nevigation a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 4px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+
+}
+
+header .nevigation a:not(:last-child){
+    margin-right: 30px;
+}
+
+header .nevigation a:hover{
+    background: #fff;
+}
+
+.Content{
+    max-width: 650px;
+    margin: 60px 100px;
+}
+
+.Content .Info h2{
+    color: rgb(27, 55, 95);
+    text-transform: uppercase;
+    font-size: 55px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin-bottom: 30px;
+
+}
+
+
+.Content .Info h2 span{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 600;
+
+}
+
+.Content .Info p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    
+}
+.info-more{
+    text-transform: uppercase;
+    color: #fff;
+    background: rgb(49, 50, 77);
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 5px 15px;
+    border-radius: 8px;
+}
+
+.info-more:hover{
+    background: rgb(89, 91, 209);
+}
